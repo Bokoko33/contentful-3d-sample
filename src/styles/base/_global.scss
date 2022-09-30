@@ -4,13 +4,10 @@
 
 :root {
   width: 100%;
+}
 
-  // rem()で可変にする場合は下記を有効に
-  // font-size: min(#{vw(16)}, 16px);
-
-  // @include mq() {
-  //   font-size: vw_sp(16);
-  // }
+body {
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 img {
