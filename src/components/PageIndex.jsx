@@ -207,7 +207,8 @@ export const PageIndex = ({ posts }) => {
       </div>
 
       <p className={styles.credit}>
-        This is an experimental demo page
+        This is
+        <br data-only-show="sp" /> an experimental demo page
         <br />
         by @bokoko33
       </p>

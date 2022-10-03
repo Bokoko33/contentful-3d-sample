@@ -12,6 +12,13 @@
   text-indent: 28px;
   z-index: $z-index-header;
 
+  @include mq() {
+    font-size: 20px;
+    top: 14px;
+    left: 18px;
+    text-indent: 22px;
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -33,6 +40,11 @@
   right: 40px;
   color: transparent;
   z-index: $z-index-header;
+
+  @include mq() {
+    top: 24px;
+    right: 20px;
+  }
 
   &::before,
   &::after {
