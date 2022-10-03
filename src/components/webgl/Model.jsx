@@ -24,9 +24,5 @@ export const Model = ({ meshRef, url }) => {
     meshRef.current.rotation.z += rotateSpeed;
   });
 
-  return (
-    <group>
-      <primitive object={scene} />
-    </group>
-  );
+  return <primitive object={scene} />;
 };
